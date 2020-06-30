@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/picture">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:text=" help me to make your
+         wonderful  CV : "
+        android:textColor="@android:color/black"
+        android:textSize="30sp"
+        android:fontFamily="cursive"/>
+
+    <EditText
+        android:id="@+id/editname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/textView"
+        android:layout_marginLeft="40dp"
+
+        android:layout_marginTop="120dp"
+        android:layout_marginRight="40dp"
+        android:ems="10"
+        android:hint="WHAT IS YOUR NAME ?"
+        android:inputType="textPersonName"
+        android:fontFamily="cursive"/>
+
+
+    <EditText
+        android:id="@+id/editage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/editname"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="70dp"
+        android:layout_marginRight="40dp"
+        android:ems="10"
+        android:hint="HOW OLD ARE YOU ?"
+        android:inputType="number"
+        android:fontFamily="cursive"/>
+
+
+    <EditText
+        android:id="@+id/editjob"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/editage"
+        android:layout_marginLeft="40dp"
+
+        android:layout_marginTop="70dp"
+        android:layout_marginRight="40dp"
+        android:ems="10"
+        android:hint="WHAT IS YOUR JOB ?"
+        android:inputType="textPersonName"
+        android:fontFamily="cursive"/>
+
+    <EditText
+        android:id="@+id/editemail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/editnumber"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="70dp"
+        android:layout_marginRight="40dp"
+        android:ems="10"
+        android:hint="WHAT IS YOUR E-MAIL ?"
+        android:inputType="textEmailAddress"
+        android:fontFamily="cursive"/>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/editemail"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="90dp"
+        android:layout_marginTop="90dp"
+        android:layout_marginRight="90dp"
+
+        android:backgroundTint="#A9BBC5C3"
+        android:fontFamily="cursive"
+        android:text="next"
+        android:textSize="20sp"
+        />
+
+    <EditText
+        android:id="@+id/editnumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/editjob"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="70dp"
+        android:layout_marginRight="40dp"
+        android:ems="10"
+        android:hint="WHAT IS YOUR NUMBER ?"
+        android:inputType="number"
+        android:fontFamily="cursive"/>
+
+
+</RelativeLayout>
